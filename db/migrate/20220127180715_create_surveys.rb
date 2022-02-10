@@ -3,7 +3,7 @@ class CreateSurveys < ActiveRecord::Migration[6.1]
     create_table :surveys do |t|
       t.text :name
       t.binary :laptop
-      t.text :os
+      t.string :os
 
       t.timestamps
     end
